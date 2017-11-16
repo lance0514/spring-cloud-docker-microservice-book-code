@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.itmuch.cloud</groupId>
-	<artifactId>microservice-simple-provider-user</artifactId>
+	<artifactId>microservice-provider-user</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>microservice-simple-provider-user</name>
+	<name>microservice-provider-user</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
@@ -56,6 +56,10 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-eureka</artifactId>
 		</dependency>
 	</dependencies>
 
