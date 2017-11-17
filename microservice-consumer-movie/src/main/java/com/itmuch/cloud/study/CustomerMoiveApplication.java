@@ -8,7 +8,7 @@ import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
 @EnableEurekaClient
-public class WebApplication {
+public class CustomerMoiveApplication {
 
 
     @Bean
@@ -18,6 +18,6 @@ public class WebApplication {
 
 
     public static void main(String[] args) {
-        SpringApplication.run(WebApplication.class, args);
+        SpringApplication.run(CustomerMoiveApplication.class, args);
     }
 }
