@@ -20,7 +20,7 @@ public class MoiveController {
     @Value("${user.userServiceUrl}")
     private String userServiceUrl;
 
-@Autowired
+    @Autowired
     private DiscoveryClient discoveryClient;
 
     @GetMapping("/user/{id}")
@@ -28,9 +28,9 @@ public class MoiveController {
         return restTemplate.getForObject(userServiceUrl + id, User.class);
     }
 
-@GetMapping("/user-instance")
-    public List<ServiceInstance> showInfo(){
-        return discoveryClient.getInstances("microservice-provice")
+    @GetMapping("/user-instance")
+    public List<ServiceInstance> showInfo() {
+        return discoveryClient.getInstances("microservice-provice-user");
     }
 
 }
