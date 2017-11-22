@@ -1,0 +1,14 @@
+server:
+  port: 8010
+user:
+  userServiceUrl: http://localhost:8000/
+
+spring:
+  application:
+    name: microservice-consumer-movie
+
+micoservice-provider-user:
+  ribbon:
+    listOfServers: localhost:8080,localhost:8081
+
+

@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.itmuch.cloud</groupId>
-	<artifactId>microservice-consumer-ribbon</artifactId>
+	<artifactId>microservice-consumer-movie-ribbon-customizing</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>microservice-consumer-ribbon</name>
+	<name>microservice-consumer-movie-ribbon-customizing</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
