@@ -6,6 +6,7 @@
 
     <groupId>com.itmuch.cloud</groupId>
     <artifactId>microservice-parent</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
     <modules>
@@ -14,6 +15,7 @@
         <module>microservice-discovery-eureka</module>
         <module>microservice-consumer-movie</module>
         <module>microservice-provider-user</module>
+        <module>microservice-file-upload</module>
     </modules>
 
 
